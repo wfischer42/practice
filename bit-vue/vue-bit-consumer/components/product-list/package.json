@@ -1,0 +1,21 @@
+{
+  "name": "@bit/wfischer42.vue-tutorial.product-list",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/wfischer42/vue-tutorial/product-list",
+  "main": "dist/product-list.common.js",
+  "componentId": {
+    "scope": "wfischer42.vue-tutorial",
+    "name": "product-list",
+    "version": "0.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.10"
+    }
+  },
+  "browser": "product-list.umd.js"
+}

@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>product-list demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./product-list.umd.js"></script>
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: product-list
+  }
+}).$mount('#app')
+</script>
