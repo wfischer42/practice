@@ -1,0 +1,29 @@
+{
+  
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "rootDir": ".",
+    "noEmit": true,
+    "plugins": [
+      {
+        "name": "nexus/typescript-language-service"
+      }
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "types.d.ts",
+    "."
+  ]
+}
